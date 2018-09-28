@@ -1,19 +1,21 @@
 # Python 3.6 + Django (Python Web Framework)
 
-NOTE: This project is not ready for release yet!!!
-
-## Components
+# Components
 * Python 3.6
 * Django (Python Web Framework)
 
-# Build
+# Build & Run (with sample project - recommended)
 ```
 sudo docker-compose build
+sudo docker-compose up
 ```
+Then open browswer to access Django: http://localhost:8000
+
 # Reference:
 * https://docs.docker.com/compose/django/#connect-the-database
 * [Django Secret key Generator](https://www.miniwebtool.com/django-secret-key-generator/)
-# How to Generate and Start Django Project
+
+# Guide - How to Generate and Start Django Project
 ## 1.) Generate Django Project
 ```
 sudo docker-compose run web django-admin.py startproject composeexample .
