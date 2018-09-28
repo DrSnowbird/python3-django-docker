@@ -1,5 +1,7 @@
 # Python 3.6 + Django (Python Web Framework)
 
+NOTE: This project is not ready for release yet!!!
+
 ## Components
 * Python 3.6
 * Django (Python Web Framework)
